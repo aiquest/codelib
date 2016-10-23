@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 
 def readme():
@@ -6,7 +6,7 @@ def readme():
         return f.read()
 
 
-setup(name='StarterPackage',
+setup(name='codelib',
       version='0.1',
       description='python started package',
       long_description=readme(),
@@ -21,14 +21,16 @@ setup(name='StarterPackage',
       author='Flying Circus',
       author_email='flyingcircus@example.com',
       license='MIT',
-      packages=['funniest'],
+      packages=['codelib'],
+    #   packages=find_packages(),
+      package_dir= {'':'src'},
       install_requires=[
-         
+
       ],
       test_suite='nose.collector',
       tests_require=['nose', 'nose-cover3'],
-      entry_points={
-          'console_scripts': ['funniest-joke=funniest.command_line:main'],
-      },
+    #   entry_points={
+    #       'console_scripts': ['funniest-joke=funniest.command_line:main'],
+    #   },
       include_package_data=True,
       zip_safe=False)
