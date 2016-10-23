@@ -1,0 +1,8 @@
+README.rst
+src/codelib/__init__.py
+src/codelib/command_line.py
+src/codelib.egg-info/PKG-INFO
+src/codelib.egg-info/SOURCES.txt
+src/codelib.egg-info/dependency_links.txt
+src/codelib.egg-info/not-zip-safe
+src/codelib.egg-info/top_level.txt

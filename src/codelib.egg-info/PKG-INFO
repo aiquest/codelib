@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: codelib
+Version: 0.1
+Summary: python started package
+Home-page: http://github.com/mandarup/python-starter-project
+Author: Flying Circus
+Author-email: flyingcircus@example.com
+License: MIT
+Description: This is a code library
+        
+        Some great help from
+        
+        Python packaging:
+        -----------------
+        http://www.scotttorborg.com/python-packaging/
+        
+        Sphinx documentation:
+        --------------------
+        http://gisellezeno.com/tutorials/sphinx-for-python-documentation.html
+        
+Keywords: python-starter-project
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Text Processing :: Linguistic
